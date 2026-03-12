@@ -1,0 +1,23 @@
+
+Website - Tank fandom website 
+
+data about latest information on tanks from nations , and descriptions of their developments and abilities 
+tank sidebar
+deployed or prototypes 
+engineer info 
+company info 
+categorization based on country 
+tags based on other country using the same tank or a varient 
+
+video/images of actual tank 
+structural view image - if not found ai generated
+
+if combat footage found - include sfw version no gore
+
+3D model? - idk 
+
+startup sound ? - probably ? idk 
+
+background changes based on selected nation , animated or not ?
+
+an about section for me and my idea to make this 
