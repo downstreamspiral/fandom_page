@@ -89,24 +89,89 @@ li {
     display: flex;
 
 
+
 }
 
 .country-section ul li {
     border: 1px solid white;
     padding: 10px;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tank-list {
     min-width: 200px;
-    height: 100%;
-    border: 2px solid grey;
+    height: max-content;
+
     padding: 10px;
+
+}
+
+.tank-list ul {
+    border: 2px solid grey;
+    margin-top: 50px;
+}
+
+.tank-list ul li {
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+
+.tank-list div {
+    padding: 0 0 20px 0;
+}
+
+.tank-list div h2 {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .data-render-space {
     padding: 50px;
 }
+
+.first-head div {
+    padding: 10px 0 0 40px;
+    width: fit-content;
+}
+
+.first-head div p {
+    padding: 10px 0px;
+}
+
+.showcase-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    width: 400px;
+}
+
+
+.stat-card p {
+    padding: 10px 0 10px 40px;
+}
+
+.sectioncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectioncontainer div p {
+    padding: 20px 0;
+}
+
+.engineer-section div {
+    padding: 10px 0 0 40px;
+    width: fit-content;
+}
+
 
 footer {
     flex: 1;
