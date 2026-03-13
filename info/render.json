@@ -1,2 +1,23 @@
 
-{}
+{
+    "Russia" :{
+
+        "T90A" :{
+
+        "Tankname":"T-90A",
+        "Countryname":"Russia",
+        "Tanktype":"Medium Tank",
+        "Service":"Deployed",
+        "Companyname": "Uralvagonzavod",
+        "img": "assets/images/t90a.jpg",
+        "img2": "assets/images/t90a(1).jpg",
+        "caliber":"125MM Maingun",
+        "pen":"APFSDS(406mm - 580mm)",
+        "harmor":"Hull (F/S/B) - 105 / 80 / 50 mm",
+        "tarmor":"Turret (F/S/B) - 180 / 160 / 65 mm",
+        "videoemb" :"-NsrTmp5wr0"
+        
+        }
+        
+    }
+}
