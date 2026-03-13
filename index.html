@@ -1,16 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tank fandom</title>
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
-
     <div class="main-page">
         <div class="masthead">
             <h1>tank archive logo</h1>
@@ -18,7 +17,6 @@
         <!-- sidebyside country navbar and tanklist -->
 
         <div class="container-wsidebar">
-
             <div class="tank-list">
                 <div>
                     <h2>Tanks</h2>
@@ -31,7 +29,6 @@
                 </ul>
             </div>
             <div class="country-section">
-
                 <ul>
                     <li>Russia</li>
                     <li>USA</li>
@@ -45,44 +42,57 @@
                     <li>Israel</li>
                     <li>Iran</li>
                     <li>Pakistan</li>
-
                 </ul>
 
                 <div class="data-render-space">
                     <div class="first-head">
-                        <h2><span>TAnk name</span></h2>
+                        <h2>Tank Name - <span id="Tname"></span></h2>
 
                         <div>
-                            <p>country name</p>
-                            <p>type light medium</p>
-                            <p>service - deployed - prototype</p>
-                            <p>company name</p>
+                            <p>Country : <span id="cname"></span></p>
+                            <p>Tank type : <span id="typeT"></span></p>
+                            <p>Service info : <span id="serviceT"></span></p>
+                            <p>Manufacturer Name : <span id="Tcompany"></span></p>
                         </div>
 
-
+                        <div>
+                            <p><span id="tankdescr"></span></p>
+                        </div>
                     </div>
 
+                    <!-- image insert -->
+
                     <div class="showcase-photo">
-                        <p>image of tank main</p>
+                        <img id="image1" />
                     </div>
 
                     <div class="stat-card">
                         <h2>Stats</h2>
-                        <p>pen , armor</p>
+                        <p>Caliber : <span id="caliberT"></span></p>
+                        <p>Penetration : <span id="penT"></span></p>
+                        <p>Turret Armor : <span id="armorTT"></span></p>
+                        <p>Hull Armor : <span id="armorHT"></span></p>
                     </div>
+
+                    <!-- image and video insert -->
 
                     <div class="photo-section">
                         <h2>Media</h2>
 
                         <div class="sectioncontainer">
                             <div>
-                                <p>image</p>
-                                <p>video</p>
+                                <img id="image2" />
+                                <iframe id="videoplayer" width="951" height="535" frameborder="0" allow="
+                      accelerometer;
+                      autoplay;
+                      clipboard-write;
+                      encrypted-media;
+                      gyroscope;
+                      picture-in-picture;
+                      web-share;
+                    " referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
-
-
-
                     </div>
 
                     <div class="engineer-section">
@@ -91,22 +101,14 @@
                             <p>name</p>
                             <p>description</p>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
-
     </div>
 
     <footer>
-        <div class="copyr">
-            Tank archive 2026 c
-        </div>
+        <div class="copyr">Tank archive 2026 c</div>
         <div class="footer-links">
             <ul>
                 <li>about</li>
@@ -115,8 +117,8 @@
         </div>
     </footer>
 
-
     <script src="https://kit.fontawesome.com/6f41c73879.js" crossorigin="anonymous"></script>
+    <script src="/js/rendercontent.js"></script>
 </body>
 
 </html>
