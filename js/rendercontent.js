@@ -14,24 +14,28 @@ let penTank = document.getElementById('penT');
 let armorTurret = document.getElementById('armorTT');
 let armorHull = document.getElementById('armorHT');
 
-// function renderCountry(id) {
+const selectedcountry = document.querySelectorAll(".countryselect");
+selectedcountry.forEach(selectedcountry => {
+    selectedcountry.addEventListener("click", function () {
+        const activecountry = this.textContent;
+        console.log(activecountry);
+
+        renderMedia(activecountry);
 
 
 
-//     const renderData = fetch("info/render.json").then(Response => Response.json())
+    })
+})
 
-//     const container = document.getElementById("videoplayer");
 
-//     container.src = renderData.videoemb;
 
-// }
 
-async function renderMedia() {
+async function renderMedia(activecountry) {
 
     let catchJson = await fetch('info/render.json');
     let recievedData = await catchJson.json();
 
-    let activecountry = "Russia"; // holds object under a countryname
+    // let activecountry = "Russia"; // holds object under a countryname
     // change tank name dynamically
     let tankoption = "T90A"; // holds keys under a tank name
 
@@ -65,7 +69,4 @@ async function renderMedia() {
 
 
 }
-
-renderMedia();
-
 
