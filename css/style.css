@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
     margin: 0;
@@ -8,21 +9,26 @@
 }
 
 :root {
-    --primary-text-color: #e5e7eb;
-    --secondary-text-color: #8fa97c;
-    --accent-color: #4f6d4a;
-    --accent-color-dark: #1d69a3;
+    --primary-text-color: #1c1a14;
+    --secondary-text-color: #6b5c45;
+    --accent-color: #1a4a7a;
+    --accent-color-light: #d6e4f0;
     --padding-inline-section: 20px;
-    --background-primary: #0f1720;
-    --background-secondary: #1b2633;
-    --border-color: #2a3a4a;
+    --background-primary: #f5f0e8;
+    --background-secondary: #ede8dc;
+    --background-tertiary: #e4ddd0;
+    --border-color: #c8b99a;
     --section-gap: 40px;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--primary-text-color);
-    background: var(--background-primary);
+    background-color: var(--background-primary);
+    background-image:
+        linear-gradient(rgba(26, 74, 122, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(26, 74, 122, 0.04) 1px, transparent 1px);
+    background-size: 32px 32px;
 }
 
 h1 {
@@ -59,14 +65,22 @@ li {
     justify-content: center;
     align-items: center;
     padding: 24px 40px;
-    border-bottom: 1px solid var(--border-color);
+    background: var(--background-secondary);
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.masthead h1 {
+    font-family: 'Courier Prime', monospace;
+    letter-spacing: 0.05em;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    font-size: 2rem;
 }
 
 /* ── Main layout ── */
 .container-wsidebar {
     display: flex;
     padding: 0 40px;
-    gap: 0;
 }
 
 /* ── Tank list sidebar ── */
@@ -86,10 +100,11 @@ li {
 }
 
 .tank-list>div h2 {
-    font-size: 1.1rem;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.85rem;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--primary-text-color);
+    letter-spacing: 0.1em;
+    color: var(--accent-color);
 }
 
 .tank-list ul {
@@ -103,11 +118,12 @@ li {
     font-size: 0.95rem;
     cursor: pointer;
     transition: background 0.15s, color 0.15s;
+    color: var(--secondary-text-color);
 }
 
 .tank-list ul li:hover {
-    background: var(--background-secondary);
-    color: var(--secondary-text-color);
+    background: var(--accent-color-light);
+    color: var(--accent-color);
 }
 
 /* ── Country nav ── */
@@ -119,8 +135,9 @@ li {
 
 .country-section>ul {
     display: flex;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--accent-color);
     overflow-x: auto;
+    background: var(--background-secondary);
 }
 
 .country-section ul li {
@@ -132,19 +149,23 @@ li {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 0.85rem;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     transition: background 0.15s, color 0.15s;
     white-space: nowrap;
+    color: var(--secondary-text-color);
 }
 
 .country-section ul li:hover {
-    background: var(--background-secondary);
-    color: var(--primary-text-color);
+    background: var(--accent-color-light);
+    color: var(--accent-color);
 }
 
 .country-section ul li.active {
     background: var(--accent-color);
-    color: var(--primary-text-color);
+    color: #f5f0e8;
 }
 
 /* ── Data render space ── */
@@ -155,7 +176,7 @@ li {
     gap: var(--section-gap);
 }
 
-/* ── First head (name + basic info) ── */
+/* ── First head ── */
 .first-head {
     padding-bottom: var(--section-gap);
     border-bottom: 1px solid var(--border-color);
@@ -164,6 +185,7 @@ li {
 .first-head h2 {
     font-size: 1.8rem;
     margin-bottom: 16px;
+    color: var(--primary-text-color);
 }
 
 .first-head>div {
@@ -179,13 +201,20 @@ li {
 .first-head>div p {
     padding: 0;
     font-size: 1rem;
+    font-family: 'Courier Prime', monospace;
+    color: var(--secondary-text-color);
 }
 
-/* ── Description ── */
 .first-head>div:last-child {
     border-left: none;
     padding-left: 0;
     margin-top: 16px;
+}
+
+.first-head>div:last-child p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.9rem;
 }
 
 /* ── Showcase photo ── */
@@ -201,7 +230,9 @@ li {
     width: 100%;
     max-width: 600px;
     height: auto;
-    border-radius: 4px;
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+    filter: sepia(15%);
 }
 
 img {
@@ -216,11 +247,12 @@ img {
 }
 
 .stat-card h2 {
-    font-size: 1.1rem;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.85rem;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     margin-bottom: 16px;
-    color: var(--secondary-text-color);
+    color: var(--accent-color);
 }
 
 .stat-card p {
@@ -228,7 +260,9 @@ img {
     border-left: 3px solid var(--accent-color);
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 4px;
+    font-family: 'Courier Prime', monospace;
     font-size: 1rem;
+    color: var(--primary-text-color);
 }
 
 .stat-card p:last-child {
@@ -242,11 +276,12 @@ img {
 }
 
 .photo-section h2 {
-    font-size: 1.1rem;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.85rem;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     margin-bottom: 20px;
-    color: var(--secondary-text-color);
+    color: var(--accent-color);
 }
 
 .sectioncontainer {
@@ -259,23 +294,24 @@ img {
     width: 100%;
     max-width: 600px;
     height: auto;
-    border-radius: 4px;
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+    filter: sepia(15%);
     display: block;
     margin: 0 auto;
 }
 
-/* responsive iframe wrapper */
 .video-wrapper {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
     aspect-ratio: 16 / 9;
+    border: 1px solid var(--border-color);
 }
 
 .video-wrapper iframe {
     width: 100%;
     height: 100%;
-    border-radius: 4px;
 }
 
 /* ── Engineer section ── */
@@ -284,11 +320,12 @@ img {
 }
 
 .engineer-section h2 {
-    font-size: 1.1rem;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.85rem;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     margin-bottom: 16px;
-    color: var(--secondary-text-color);
+    color: var(--accent-color);
 }
 
 .engineer-section>div {
@@ -305,7 +342,7 @@ img {
 footer {
     background: var(--background-secondary);
     padding: 40px 0 20px 0;
-    border-top: 1px solid var(--border-color);
+    border-top: 2px solid var(--accent-color);
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -314,8 +351,11 @@ footer {
 .copyr {
     width: fit-content;
     margin: 0 auto;
-    font-size: 0.9rem;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.85rem;
     color: var(--secondary-text-color);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
 
 .footer-links {
@@ -329,7 +369,14 @@ footer {
 }
 
 .footer-links ul li {
-    font-size: 0.9rem;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.85rem;
     color: var(--secondary-text-color);
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.footer-links ul li:hover {
+    color: var(--accent-color);
 }
