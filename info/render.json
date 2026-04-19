@@ -20,7 +20,7 @@
             "Tanktype": "MBT",
             "Service": "Deployed",
             "Companyname": "Uralvagonzavod",
-            "img": "assets/images/t72b.jpg",
+            "img": "assets/images/rus/T-72B3M - Russian Army.jpg",
             "img2": "assets/images/t72b(1).jpg",
             "caliber": "125mm Main Gun",
             "pen": "APFSDS (450mm - 520mm)",
@@ -34,7 +34,7 @@
             "Tanktype": "MBT",
             "Service": "Deployed",
             "Companyname": "Uralvagonzavod",
-            "img": "assets/images/t90m.jpg",
+            "img": "assets/images/rus/T-90M Proryv-3 - Russian Army.jpg",
             "img2": "assets/images/t90m(1).jpg",
             "caliber": "125mm Main Gun",
             "pen": "APFSDS (550mm - 700mm)",
@@ -48,7 +48,7 @@
             "Tanktype": "MBT",
             "Service": "Deployed",
             "Companyname": "Omsktransmash",
-            "img": "assets/images/t80bvm.jpg",
+            "img": "assets/images/rus/T-80BVM - Russian Army.jpg",
             "img2": "assets/images/t80bvm(1).jpg",
             "caliber": "125mm Main Gun",
             "pen": "APFSDS (500mm - 650mm)",
@@ -62,7 +62,7 @@
             "Tanktype": "IFV",
             "Service": "Deployed",
             "Companyname": "Kurganmashzavod",
-            "img": "assets/images/bmp3m.jpg",
+            "img": "assets/images/assets/rus/bmp3.jpg",
             "img2": "assets/images/bmp3m(1).jpg",
             "caliber": "100mm + 30mm",
             "pen": "APDS (120mm - 150mm)",
@@ -78,7 +78,7 @@
             "Tanktype": "MBT",
             "Service": "Deployed",
             "Companyname": "General Dynamics",
-            "img": "assets/images/m1a2sepv3.jpg",
+            "img": "assets/images/usa/M1A2SEPv3 Abrams - US Army.jpg",
             "img2": "assets/images/m1a2sepv3(1).jpg",
             "caliber": "120mm Main Gun",
             "pen": "APFSDS (650mm - 800mm)",
@@ -92,7 +92,7 @@
             "Tanktype": "MBT",
             "Service": "Deployed",
             "Companyname": "General Dynamics",
-            "img": "assets/images/m1a2.jpg",
+            "img": "assets/images/usa/M1A2 Abrams - US Army.jpg",
             "img2": "assets/images/m1a2(1).jpg",
             "caliber": "120mm Main Gun",
             "pen": "APFSDS (600mm - 750mm)",
@@ -106,7 +106,7 @@
             "Tanktype": "Light Tank",
             "Service": "Deployed",
             "Companyname": "General Dynamics",
-            "img": "assets/images/m10.jpg",
+            "img": "assets/images/usa/m10 booker.jpg",
             "img2": "assets/images/m10(1).jpg",
             "caliber": "105mm Main Gun",
             "pen": "APFSDS (350mm - 450mm)",
@@ -120,7 +120,7 @@
             "Tanktype": "IFV",
             "Service": "Deployed",
             "Companyname": "BAE Systems",
-            "img": "assets/images/bradley.jpg",
+            "img": "assets/images/usa/M2A3 Bradley.jpg",
             "img2": "assets/images/bradley(1).jpg",
             "caliber": "25mm",
             "pen": "APDS (120mm - 160mm)",
@@ -140,7 +140,7 @@
             "pen": "APFSDS (466mm - 577mm)",
             "harmor": "Hull (F/S/B) - 70 / 50 / 45 mm",
             "tarmor": "Turret (F/S/B) - 85 / 60 / 35 mm",
-            "img": "dummy",
+            "img": "assets/images/china/ZTZ-99A - Chinese Army MBT.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -154,7 +154,7 @@
             "pen": "APFSDS (430mm - 520mm)",
             "harmor": "Hull (F/S/B) - 100 / 50 / 45 mm",
             "tarmor": "Turret (F/S/B) - 220 / 150 / 60 mm",
-            "img": "dummy",
+            "img": "assets/images/china/ZTZ-96B - Chinese Army MBT.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -168,7 +168,7 @@
             "pen": "APFSDS (400mm - 500mm)",
             "harmor": "Hull (F/S/B) - 35 / 25 / 20 mm",
             "tarmor": "Turret (F/S/B) - 40 / 30 / 20 mm",
-            "img": "dummy",
+            "img": "assets/images/china/Type 15 (Chinese_ 15式轻型坦克; pinyin_ yīwǔ shì qīngxíng tǎnkè, also designated ZTQ-15), nicknamed the Black Panther' Chinese third generation light tank ,2018.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -182,7 +182,7 @@
             "pen": "APDS (120mm - 150mm)",
             "harmor": "Hull (F/S/B) - 35 / 25 / 20 mm",
             "tarmor": "Turret (F/S/B) - 30 / 25 / 20 mm",
-            "img": "dummy",
+            "img": "assets/images/china/ZBD-04A _  ZBD-08 Tracked Infantry Fighting Vehicle – China.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         }
@@ -198,7 +198,7 @@
             "pen": "APFSDS (500mm - 650mm)",
             "harmor": "Hull (F/S/B) - 230 / 80 / 60 mm",
             "tarmor": "Turret (F/S/B) - 300 / 220 / 65 mm",
-            "img": "dummy",
+            "img": "assets/images/india/t90 bhisma.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -212,7 +212,7 @@
             "pen": "APFSDS (550mm - 650mm)",
             "harmor": "Hull (F/S/B) - 250 / 90 / 60 mm",
             "tarmor": "Turret (F/S/B) - 350 / 250 / 70 mm",
-            "img": "dummy",
+            "img": "assets/images/india/arjun mbt.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -226,7 +226,7 @@
             "pen": "APFSDS (400mm - 500mm)",
             "harmor": "Hull (F/S/B) - 200 / 80 / 60 mm",
             "tarmor": "Turret (F/S/B) - 250 / 200 / 60 mm",
-            "img": "dummy",
+            "img": "assets/images/india/T-72M Ajeya Indian Main Battle Тank.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -240,7 +240,7 @@
             "pen": "APDS (100mm - 140mm)",
             "harmor": "Hull (F/S/B) - 30 / 25 / 20 mm",
             "tarmor": "Turret (F/S/B) - 30 / 25 / 20 mm",
-            "img": "dummy",
+            "img": "assets/images/india/The TATA Kestrel, also known as the IPMV (Infantry Protected Mobility Vehicle) Indian Army_.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         }
@@ -256,7 +256,7 @@
             "pen": "APFSDS (496mm - 653mm)",
             "harmor": "Hull (F/S/B) - 80 / 35 / 20 mm",
             "tarmor": "Turret (F/S/B) - 80 / 80 / 25 mm",
-            "img": "dummy",
+            "img": "assets/images/german/Leopard 2A7 Tank_ Why It’s Considered the Best in the World.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -270,7 +270,7 @@
             "pen": "APFSDS (550mm - 650mm)",
             "harmor": "Hull (F/S/B) - 80 / 35 / 20 mm",
             "tarmor": "Turret (F/S/B) - 80 / 80 / 25 mm",
-            "img": "dummy",
+            "img": "assets/images/german/Leopard 2A6.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -284,7 +284,7 @@
             "pen": "APFSDS (350mm - 420mm)",
             "harmor": "Hull (F/S/B) - 70 / 35 / 25 mm",
             "tarmor": "Turret (F/S/B) - 60 / 45 / 25 mm",
-            "img": "dummy",
+            "img": "assets/images/german/leaopard1a5.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -298,7 +298,7 @@
             "pen": "APFSDS (120mm - 150mm)",
             "harmor": "Hull (F/S/B) - 50 / 40 / 30 mm",
             "tarmor": "Turret (F/S/B) - 40 / 30 / 20 mm",
-            "img": "dummy",
+            "img": "assets/images/german/Schützenpanzer PUMA IFV - German Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         }
@@ -314,7 +314,7 @@
             "pen": "APFSDS (600mm - 700mm)",
             "harmor": "Hull (F/S/B) - 300 / 90 / 60 mm",
             "tarmor": "Turret (F/S/B) - 400 / 250 / 70 mm",
-            "img": "dummy",
+            "img": "assets/images/south korea/K2 Black Panther - Republic of Korea Armed Forces.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -328,7 +328,7 @@
             "pen": "APFSDS (500mm - 600mm)",
             "harmor": "Hull (F/S/B) - 250 / 80 / 50 mm",
             "tarmor": "Turret (F/S/B) - 300 / 200 / 60 mm",
-            "img": "dummy",
+            "img": "assets/images/south korea/K1A2 Rokit - Republic of Korea Armed Forces.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -342,7 +342,7 @@
             "pen": "APFSDS (400mm - 500mm)",
             "harmor": "Hull (F/S/B) - 220 / 70 / 50 mm",
             "tarmor": "Turret (F/S/B) - 260 / 180 / 60 mm",
-            "img": "dummy",
+            "img": "assets/images/south korea/K1E1 Rokit - Republic of Korea Armed Forces.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -356,7 +356,7 @@
             "pen": "APFSDS (150mm - 200mm)",
             "harmor": "Hull (F/S/B) - 30 / 25 / 20 mm",
             "tarmor": "Turret (F/S/B) - 30 / 25 / 20 mm",
-            "img": "dummy",
+            "img": "assets/images/south korea/K21 IFV - Republic of Korea Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         }
@@ -372,7 +372,7 @@
             "pen": "APFSDS (600mm - 700mm)",
             "harmor": "Hull (F/S/B) - 300 / 90 / 60 mm",
             "tarmor": "Turret (F/S/B) - 400 / 250 / 70 mm",
-            "img": "dummy",
+            "img": "assets/images/turkey/altay.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -386,7 +386,7 @@
             "pen": "APFSDS (450mm - 550mm)",
             "harmor": "Hull (F/S/B) - 80 / 35 / 20 mm",
             "tarmor": "Turret (F/S/B) - 80 / 60 / 25 mm",
-            "img": "dummy",
+            "img": "assets/images/turkey/Leopard 2A4 - Turkish Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -400,7 +400,7 @@
             "pen": "APFSDS (500mm - 600mm)",
             "harmor": "Hull (F/S/B) - 200 / 80 / 50 mm",
             "tarmor": "Turret (F/S/B) - 250 / 200 / 60 mm",
-            "img": "dummy",
+            "img": "assets/images/turkey/M60T Sabra - Turkish Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -414,7 +414,7 @@
             "pen": "APFSDS (120mm - 150mm)",
             "harmor": "Hull (F/S/B) - 30 / 25 / 20 mm",
             "tarmor": "Turret (F/S/B) - 30 / 25 / 20 mm",
-            "img": "dummy",
+            "img": "assets/images/turkey/Tulpar Zma Turkish Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         }
@@ -430,7 +430,7 @@
             "pen": "APFSDS (600mm - 700mm)",
             "harmor": "Hull (F/S/B) - 300 / 90 / 60 mm",
             "tarmor": "Turret (F/S/B) - 400 / 250 / 70 mm",
-            "img": "dummy",
+            "img": "assets/images/poland/K2 Black Panther - Polish Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -444,7 +444,7 @@
             "pen": "APFSDS (550mm - 650mm)",
             "harmor": "Hull (F/S/B) - 80 / 35 / 20 mm",
             "tarmor": "Turret (F/S/B) - 90 / 80 / 25 mm",
-            "img": "dummy",
+            "img": "assets/images/poland/Leopard 2PL - Polish Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -458,7 +458,7 @@
             "pen": "APFSDS (600mm - 700mm)",
             "harmor": "Hull (F/S/B) - 320 / 80 / 50 mm",
             "tarmor": "Turret (F/S/B) - 450 / 280 / 80 mm",
-            "img": "dummy",
+            "img": "assets/images/poland/Abrams in Poland.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -472,7 +472,7 @@
             "pen": "APFSDS (120mm - 150mm)",
             "harmor": "Hull (F/S/B) - 30 / 25 / 20 mm",
             "tarmor": "Turret (F/S/B) - 30 / 25 / 20 mm",
-            "img": "dummy",
+            "img": "assets/images/poland/Transporter op_ Borsuk.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         }
@@ -488,7 +488,7 @@
             "pen": "APFSDS (450mm - 520mm)",
             "harmor": "Hull (F/S/B) - 200 / 80 / 60 mm",
             "tarmor": "Turret (F/S/B) - 280 / 220 / 65 mm",
-            "img": "dummy",
+            "img": "assets/images/ukraine/T-64BV mod_2017 - Ukrainian Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -502,7 +502,7 @@
             "pen": "APFSDS (500mm - 600mm)",
             "harmor": "Hull (F/S/B) - 220 / 80 / 60 mm",
             "tarmor": "Turret (F/S/B) - 300 / 220 / 65 mm",
-            "img": "dummy",
+            "img": "assets/images/ukraine/T-72AMT - Ukrainian Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -516,7 +516,7 @@
             "pen": "APFSDS (550mm - 650mm)",
             "harmor": "Hull (F/S/B) - 250 / 90 / 60 mm",
             "tarmor": "Turret (F/S/B) - 350 / 250 / 70 mm",
-            "img": "dummy",
+            "img": "assets/images/ukraine/T-84 Oplot - Ukrainian Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -530,7 +530,7 @@
             "pen": "APDS (100mm - 140mm)",
             "harmor": "Hull (F/S/B) - 20 / 15 / 10 mm",
             "tarmor": "Turret (F/S/B) - 20 / 15 / 10 mm",
-            "img": "dummy",
+            "img": "assets/images/ukraine/BTR-4E - Ukrainian Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         }
@@ -546,7 +546,7 @@
             "pen": "APFSDS (600mm - 700mm)",
             "harmor": "Hull (F/S/B) - 300 / 100 / 60 mm",
             "tarmor": "Turret (F/S/B) - 400 / 300 / 80 mm",
-            "img": "dummy",
+            "img": "assets/images/israel/Merkava Mk 4 tanks are going to action.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -560,7 +560,7 @@
             "pen": "APFSDS (550mm - 650mm)",
             "harmor": "Hull (F/S/B) - 280 / 90 / 60 mm",
             "tarmor": "Turret (F/S/B) - 350 / 250 / 70 mm",
-            "img": "dummy",
+            "img": "assets/images/israel/Merkava Mk 3D - Israel Defense Forces.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -574,7 +574,7 @@
             "pen": "APFSDS (350mm - 450mm)",
             "harmor": "Hull (F/S/B) - 200 / 80 / 50 mm",
             "tarmor": "Turret (F/S/B) - 250 / 200 / 60 mm",
-            "img": "dummy",
+            "img": "assets/images/israel/Magach 7A (Israeli modernised version of M60A3) - Israel Defense Forces.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -588,7 +588,7 @@
             "pen": "APFSDS (120mm - 150mm)",
             "harmor": "Hull (F/S/B) - 30 / 25 / 20 mm",
             "tarmor": "Turret (F/S/B) - 30 / 25 / 20 mm",
-            "img": "dummy",
+            "img": "assets/images/israel/eitan.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         }
@@ -605,7 +605,7 @@
             "pen": "APFSDS (500mm - 650mm)",
             "harmor": "Hull (F/S/B) - 220 / 80 / 60 mm",
             "tarmor": "Turret (F/S/B) - 300 / 220 / 65 mm",
-            "img": "dummy",
+            "img": "assets/images/pak/Pakistani Al-Khalid main battle tank_.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -619,7 +619,7 @@
             "pen": "APFSDS (400mm - 500mm)",
             "harmor": "Hull (F/S/B) - 200 / 80 / 60 mm",
             "tarmor": "Turret (F/S/B) - 250 / 200 / 60 mm",
-            "img": "dummy",
+            "img": "assets/images/pak/Al-Zarrar (Upgrade of Chinese Type 59 Tank) - Pakistan Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -633,7 +633,7 @@
             "pen": "APFSDS (500mm - 650mm)",
             "harmor": "Hull (F/S/B) - 220 / 80 / 60 mm",
             "tarmor": "Turret (F/S/B) - 300 / 220 / 65 mm",
-            "img": "dummy",
+            "img": "assets/images/pak/T-80UD - Pakistan Army.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         },
@@ -647,7 +647,7 @@
             "pen": "APFSDS (250mm - 350mm)",
             "harmor": "Hull (F/S/B) - 100 / 80 / 45 mm",
             "tarmor": "Turret (F/S/B) - 200 / 160 / 65 mm",
-            "img": "dummy",
+            "img": "assets/images/pak/Tanks of Pakistan Army in FATA.jpg",
             "img2": "dummy",
             "videoemb": "dummy"
         }
